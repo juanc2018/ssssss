@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: JavaWebAppwithSpringUTKAR
+  buildpack: java_buildpack
+  path: ./target/JavaWebAppwithSpringUTKAR-1.0-SNAPSHOT.jar
+  memory: 512MB
+  domain: eu-de.mybluemix.net
+  host: java-web-app-with-spring-utkar
